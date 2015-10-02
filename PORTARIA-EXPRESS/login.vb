@@ -76,7 +76,7 @@ Public Class login
     End Sub
 
     Private Sub btncancelar_Click(sender As System.Object, e As System.EventArgs) Handles btncancelar.Click
-        Me.Close()
+        Application.Exit()
 
 
 
